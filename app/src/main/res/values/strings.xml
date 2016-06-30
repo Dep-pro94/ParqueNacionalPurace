@@ -3,4 +3,19 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="informacion">
+        Declarado por la UNESCO como Reserva de la Biosfera en 1979,
+        el Parque Nacional Natural Puracé es una zona volcánica y lo refleja tanto en sus numerosas
+        fuentes azufradas como en su nombre, que en lengua quechua significa “montaña de fuego”.
+        Allí nacen los principales ríos de Colombia: Magdalena, Cauca, Patía y Caquetá y también 30 lagunas
+        tranquilas y claras, ideales para la contemplación. Dentro de su estupendo paisaje se levanta
+        la cadena volcánica de los Coconucos, también conocida como Serranía de los Coconucos,
+        compuesta por 11 volcanes. De éstos los mas destacados son el Pan de Azúcar (5.000 msnm),
+        el Puracé (4.780 msnm) el único activo, y el Coconuco (4.600 msnm). A comienzos de siglo XX,
+        toda la Serranía permanecía nevada; actualmente, ni siquiera el cerro más alto, el Pan de Azúcar,
+        conserva nieve.
+    </string>
+    <string name="actividades">
+        Actividades Ecoturísticas
+    </string>
 </resources>

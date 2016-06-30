@@ -1,14 +1,56 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="@color/colorAccent"
+
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.purace.parquenacionalpurace.fragments.InicioFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <ScrollView
+        android:id="@+id/scroll"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Inicio guia" />
+        android:layout_height="wrap_content"
 
-</FrameLayout>
+        >
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+
+          <ImageView
+              android:id="@+id/iniciofoto"
+              android:layout_width="match_parent"
+              android:layout_height="250dp"
+              android:src="@drawable/iniciofoto"
+              />
+
+          <TextView
+              android:id="@+id/txtincio"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/informacion"
+              android:layout_below="@+id/iniciofoto"
+              />
+          <ImageView
+              android:id="@+id/imgactividades"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:src="@drawable/actividades"
+              android:layout_below="@+id/txtincio"
+              />
+          <TextView
+              android:id="@+id/txactividades"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/actividades"
+              android:layout_alignParentRight="true"
+              android:layout_below="@+id/txtincio"
+              />
+
+      </RelativeLayout>
+
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

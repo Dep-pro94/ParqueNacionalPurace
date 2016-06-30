@@ -6,6 +6,7 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Adapter;
+import android.widget.ImageView;
 
 import com.example.purace.parquenacionalpurace.adaptador.TabsPagerAdapter;
 
@@ -21,6 +22,8 @@ public class MainActivity extends AppCompatActivity implements ActionBar.TabList
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
 
         pager=(ViewPager)findViewById(R.id.pager);
 
@@ -55,7 +58,7 @@ public class MainActivity extends AppCompatActivity implements ActionBar.TabList
 
 
     }
-
+//se sincroniza las tab con el swipe
     @Override
     public void onTabSelected(ActionBar.Tab tab, FragmentTransaction ft) {
         pager.setCurrentItem(tab.getPosition());
