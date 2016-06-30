@@ -8,6 +8,8 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Contactos 3152406540" />
+        android:text="aqui de ir algo como el costo de la visita o cambiar esta pestaña por
+        solo el mapa
+        " />
 
 </FrameLayout>
