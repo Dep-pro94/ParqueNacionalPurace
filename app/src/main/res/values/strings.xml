@@ -18,4 +18,20 @@
     <string name="actividades">
         Actividades Ecoturísticas
     </string>
+    <string name="senderismo">
+        Senderismo
+    </string>
+    <string name="txtsenderismo">
+        Tiene varios senderos como: Sendero al volcán Puracé (7 km, dificultad media);
+        Sendero Orquídeas (800 mts, dificultad muy baja); Sendero Cadena Volcánica (6.5 km, dificultad alta);
+        Sendero cascada de San Nicolás (2 km, dificultad media).
+    </string>
+    <string name="fotografia">
+        Fotografia y Video
+    </string>
+    <string name="txtfotografia">
+        Las bellezas escénicas del Parque son el lugar perfecto para esta actividad,
+        aunque si las fotos o videos tienen fines comerciales o de publicación se debe solicitar
+        un permiso de Parques Nacionales Naturales.
+    </string>
 </resources>

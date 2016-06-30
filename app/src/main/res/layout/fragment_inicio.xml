@@ -30,6 +30,8 @@
               android:text="@string/informacion"
               android:layout_below="@+id/iniciofoto"
               />
+
+
           <ImageView
               android:id="@+id/imgactividades"
               android:layout_width="wrap_content"
@@ -37,13 +39,63 @@
               android:src="@drawable/actividades"
               android:layout_below="@+id/txtincio"
               />
+
           <TextView
               android:id="@+id/txactividades"
               android:layout_width="wrap_content"
-              android:layout_height="wrap_content"
+              android:layout_height="30dp"
               android:text="@string/actividades"
-              android:layout_alignParentRight="true"
-              android:layout_below="@+id/txtincio"
+              android:layout_marginLeft="70dp"
+              android:layout_alignTop="@+id/imgactividades"
+              android:textStyle="bold"
+              />
+          <ImageView
+              android:id="@+id/imgsenderismo"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_below="@id/imgactividades"
+              android:src="@drawable/senderismo"
+              android:layout_marginTop="4dp"
+              />
+          <TextView
+              android:id="@+id/txtsenderismo"
+              android:layout_width="wrap_content"
+              android:layout_height="30dp"
+              android:text="@string/senderismo"
+              android:layout_marginLeft="70dp"
+              android:layout_below="@id/imgactividades"
+              android:textStyle="bold"
+              />
+          <TextView
+              android:id="@+id/txtsendero"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/txtsenderismo"
+              android:layout_below="@id/imgsenderismo"
+              android:layout_marginTop="4dp"
+              />
+          <ImageView
+              android:id="@+id/imgfoto"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:src="@drawable/foto"
+              android:layout_below="@id/txtsendero"
+              />
+          <TextView
+              android:id="@+id/txtfotografia"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/fotografia"
+              android:layout_marginLeft="70dp"
+              android:layout_below="@id/txtsendero"
+              />
+          <TextView
+              android:id="@+id/txtfoto"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/txtfotografia"
+              android:layout_below="@id/imgfoto"
+              android:layout_marginTop="4dp"
               />
 
       </RelativeLayout>
