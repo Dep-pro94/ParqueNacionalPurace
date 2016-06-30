@@ -21,17 +21,37 @@
     <string name="senderismo">
         Senderismo
     </string>
+
+
+
     <string name="txtsenderismo">
         Tiene varios senderos como: Sendero al volcán Puracé (7 km, dificultad media);
         Sendero Orquídeas (800 mts, dificultad muy baja); Sendero Cadena Volcánica (6.5 km, dificultad alta);
         Sendero cascada de San Nicolás (2 km, dificultad media).
     </string>
+
+
     <string name="fotografia">
         Fotografia y Video
     </string>
+
+
     <string name="txtfotografia">
         Las bellezas escénicas del Parque son el lugar perfecto para esta actividad,
         aunque si las fotos o videos tienen fines comerciales o de publicación se debe solicitar
         un permiso de Parques Nacionales Naturales.
+    </string>
+
+
+    <string name="fauna">
+        Observacion de Fauna y Flora Silvestre
+    </string>
+
+
+
+    <string name="txtfauna">
+        Es un lugar perfecto para observar fauna y flora. Se encuentran mamíferos como el oso de anteojos,
+        la nutria, el venado conejo, el puma y la danta de paramo. También tiene más de 200 especies de orquídeas,
+        lo cual es probablemente una de las características más destacadas del bosque andino del Parque.
     </string>
 </resources>

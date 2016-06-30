@@ -80,6 +80,7 @@
               android:layout_height="wrap_content"
               android:src="@drawable/foto"
               android:layout_below="@id/txtsendero"
+              android:layout_marginTop="4dp"
               />
           <TextView
               android:id="@+id/txtfotografia"
@@ -88,6 +89,7 @@
               android:text="@string/fotografia"
               android:layout_marginLeft="70dp"
               android:layout_below="@id/txtsendero"
+              android:textStyle="bold"
               />
           <TextView
               android:id="@+id/txtfoto"
@@ -96,6 +98,29 @@
               android:text="@string/txtfotografia"
               android:layout_below="@id/imgfoto"
               android:layout_marginTop="4dp"
+              />
+          <ImageView
+              android:id="@+id/imgfauna"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:src="@drawable/fauna"
+              android:layout_below="@id/txtfoto"
+              />
+          <TextView
+              android:id="@+id/txtfauna"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_below="@id/txtfoto"
+              android:layout_marginLeft="70dp"
+              android:text="@string/fauna"
+              android:textStyle="bold"
+              />
+          <TextView
+              android:id="@+id/txtfaunayflora"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_below="@id/imgfauna"
+              android:text="@string/txtfauna"
               />
 
       </RelativeLayout>
